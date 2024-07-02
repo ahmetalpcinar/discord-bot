@@ -30,6 +30,8 @@ token = "TOKENINIZ"
 ### ✨ Kullanımı
 - Prefix ile kullanılan komutlar için `sources/commands/base/` dizinine açtığınız her klasörün içine farklı komut dosyaları oluşturabilirsiniz.
 - Slash ile kullanılan komutlar için `sources/commands/home/` dizinine açtığınız her klasörün içine farklı komut dosyaları oluşturabilirsiniz.
+- `sources/admins/tools` dizinin de botunuz da kullanabileceğiniz bütün yapılar bulunmaktadır.
+- Proje tamamen değiştirilebilir bir yapıda hazırlanmıştır ve kullanımı kolaydır!
 
 ### 🎉 Notlar
 - `sources/events/client/ready.js` dizinin de bulunan `const channel = client.channels.cache.get("KANAL_IDSI");` kod bloğuna bir Ses Kanal IDsi yazarak botunuzun aktif olduğu sürelerde o kanalda durmasını sağlayabilirsiniz!
