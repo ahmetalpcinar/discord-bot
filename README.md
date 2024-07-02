@@ -27,3 +27,10 @@ guild = "SUNUCU_IDINIZ"
 token = "TOKENINIZ"
 ```
 
+### ✨ Kullanımı
+- Prefix ile kullanılan komutlar için `sources/commands/base/` dizinine açtığınız her klasörün içine farklı komut dosyaları oluşturabilirsiniz.
+- Slash ile kullanılan komutlar için `sources/commands/home/` dizinine açtığınız her klasörün içine farklı komut dosyaları oluşturabilirsiniz.
+
+### 🎉 Notlar
+- `sources/events/client/ready.js` dizinin de bulunan `const channel = client.channels.cache.get("KANAL_IDSI");` kod bloğuna bir Ses Kanal IDsi yazarak botunuzun aktif olduğu sürelerde o kanalda durmasını sağlayabilirsiniz!
+- `sources/events/client/ready.js` dizinin de bulunan `slashcommands(client, "Global");` kod bloğuna `Global` yazarsanız komutlar botun içine, `Guild` yazarsanız sunucunun içine aktarılır.
