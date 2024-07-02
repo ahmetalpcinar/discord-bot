@@ -14,10 +14,12 @@ Bu proje, JavaScript ile Discord botu oluşturmanıza olanak sağlamaktadır. A�
 - Ardından [Discord Developer Portal](https://discord.com/developers/applications) sitesini açıyoruz ve buradan kendimize yeni bir uygulama oluşturuyoruz.
 - Oluşturduğumuz uygulamaya tıklayıp içinde bulunan Bot sayfasına tıklıyoruz.
 - Bot sayfasında aşağıda belirtilen gereksinimleri açtıktan sonra Reset Token yazısına tıklayacaksınız.
-<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/image.png">
 - Burada oluşan uzun yazı, botunuza ait token yani "çalıştırma anahtarı"dır.
 - Bu token'ı kopyalayıp proje klasörünüzün içinde ki ".env" dosyasına girerek aşağıda ki gibi dolduracaksınız.
-- 
+- Tekrar terminale girdikten sonra "node index.js" yazarak botunuzu başlatabilirsiniz!
+
+<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/image.png">
+
 ```javascript
 prefix = "."
 owner = "KULLANICI_IDNIZ"
@@ -25,4 +27,3 @@ guild = "SUNUCU_IDINIZ"
 token = "TOKENINIZ"
 ```
 
-- Tekrar terminale girdikten sonra "node index.js" yazarak botunuzu başlatabilirsiniz!
