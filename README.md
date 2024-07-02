@@ -4,7 +4,7 @@ Bu proje, JavaScript ile Discord botu oluşturmanıza olanak sağlamaktadır. A�
 ### 📁 Dosya Kurulumu
 - İlk olarak bilgisayarınıza uygun olacak ayarlarda [Node.js](https://nodejs.org/en) dosyasını indirmeniz ve indirdiğiniz dosyayı bilgisayarınıza kurmanız gerekmektedir.
 - Ardından projenize bir isim vererek masaüstünüze klasör açmanız gerekmektedir.
-- Bir IDE yardımı ile oluşturduğunuz bu klasörü açmanız gerekmektedir. Ben her zaman [Visual Studio Code](https://code.visualstudio.com) IDE'sini kullanıyorum ve öneriyorum.
+- Bir IDE yardımı ile oluşturduğunuz bu klasörü açmanız gerekmektedir. Ben [Visual Studio Code](https://code.visualstudio.com) IDE'sini kullanıyorum ve tavsiye ediyorum.
 - VSC de dosyanızı açtıktan sonra Terminal seçeneğine basıp ardından da Yeni Terminal ile projemize bir terminal oluşturuyoruz.
 - Açılan terminale sırası ile `npm init -y`, `npm i discord.js`, `npm i @discordjs/voice`, `npm i dotenv`, `npm i quick.db` ve son olarak `npm i better-sqlite3` yazarak gerekli kütüphaneleri kuruyoruz.
 
