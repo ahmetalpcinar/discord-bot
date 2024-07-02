@@ -9,7 +9,7 @@ module.exports = (client, db) => {
         client.user.setStatus("idle");
         client.user.setActivity({ name: "@anubiss.xd", type: 2 });
 
-        const channel = client.channels.cache.get("1226842086620397578");
+        const channel = client.channels.cache.get("KANAL_IDSI");
         if (!channel) return;
 
         const connection = joinVoiceChannel({
