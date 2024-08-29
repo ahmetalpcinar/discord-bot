@@ -18,7 +18,7 @@ Bu proje, JavaScript ile Discord botu oluşturmanıza olanak sağlamaktadır. A�
 - Bu token'ı kopyalayıp proje klasörünüzün içinde ki `.env` dosyasına girerek aşağıda ki gibi dolduracaksınız.
 - Tekrar terminale girdikten sonra `node index.js` yazarak botunuzu başlatabilirsiniz!
 
-<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/image1DC.png">
+<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageDC1.png">
 
 ```javascript
 prefix = "."
